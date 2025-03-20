@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #003c73; /* Dark Blue */
+  --secondary-color: #d1e9ff; /* Light Blue */
+  --tertiary: #448ccf; /* Mid Blue */
+  --quatnary-color: #DEF3FF;
+  --secondary-gray: #202020; /* Light Gray */
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.material-symbols-outlined .filled {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.head {
+  @apply px-6 py-3 text-left text-sm font-medium bg-blue-800;
+}
+
+td {
+  @apply px-6 py-4 text-sm
+}
